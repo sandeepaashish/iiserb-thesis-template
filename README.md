@@ -4,7 +4,7 @@ PhD thesis template for IISER Bhopal (India)
 --------------------INTRODUCTION--------------------------------------
 
 This is the format for IISER Bhopal PhD Thesis for Physics or Mathematics.
-A modified version of the one originally prepared by Arghya Chattopadhyay (arghya.chattopadhyay@gmail.com). Huge shout out to Arghya for all the hard work!
+A modified version of the one originally prepared by Arghya Chattopadhyay. Huge shout out to Arghya for all the hard work!
 
 Be prepared to modify a bit the IISERB class file to conform with whoever incharge at the academic office PhD section. 
 

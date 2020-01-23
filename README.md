@@ -12,8 +12,11 @@ The formatting related contents (packages, custom layout, fonts, etc.) are now p
 All you have to do is enter your details in the individual details section in thesis.tex and edit included files. 
 
 This version: 1.0.1 
+
 Created by: Sandeep Aashish 
+
 contact: sandeepaashish@hotmail.com
+
 Date created: January 23, 2020
 
 --------------------COMPILING INSTRUCTIONS---------------------------------
@@ -27,6 +30,7 @@ Most of the required .sty files are in styles folder. Add them to your local lat
 Bibliography style file hunsrt.bst is also in the styles folder.
 
 On the first run, follow these steps:
+
 pdflatex > makeindex thesis.nlo -s nomencl.ist -o thesis.nls > bibtex > pdflatex (x2)
 
 You can add these arguments for makeindex in your editor's options menu.

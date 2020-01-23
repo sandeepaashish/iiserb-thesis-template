@@ -35,4 +35,4 @@ pdflatex > makeindex thesis.nlo -s nomencl.ist -o thesis.nls > bibtex > pdflatex
 
 You can add these arguments for makeindex in your editor's options menu.
 
-===================================END==================================================
+===================================END========================================

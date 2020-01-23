@@ -1,0 +1,18 @@
+#!/bin/sh
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+cd ..
+
+#add styles folder in the path. Alternatively, copy all style files to TEX_installation_folder/tex/latex/
+export TEXINPUTS=".:./styles:"
+
+# Build the dissertation.
+pdflatex thesis
+makeindex thesis.nlo -s nomencl.ist -o thesis.nls
+bibtex thesis
+pdflatex thesis
+pdflatex thesis
+
+# Hide the log.
+mv "thesis.log" ".logged"
+

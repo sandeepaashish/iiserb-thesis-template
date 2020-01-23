@@ -1,0 +1,56 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sator}[2019 Dummy figures and tables for testing, by Andrew A. Cashner, cashner@uchicago.edu]
+
+\RequirePackage{tabulary,booktabs}
+
+\newcommand{\sator}{Sator arepo tenet opera rotas}
+\newcommand{\Sator}{Sator Arepo Tenet Opera Rotas}
+
+% For float labels
+\newcounter{fignum}
+\newcounter{tabnum}
+
+% Figures
+\newcommand{\satorfig}{%
+    \stepcounter{fignum}%
+    See figure~\ref{fig:\thefignum}.\par
+    \begin{figure}
+    {\huge\bfseries\hfil%
+    \begin{tabular}{|c|c|c|c|c|} \hline
+        S & A & T & O & R\\ \hline
+        A & R & E & P & O\\ \hline
+        T & E & N & E & T\\ \hline
+        O & P & E & R & A\\ \hline
+        R & O & T & A & S\\ \hline
+    \end{tabular}}
+
+    \caption{\sator}
+    \label{fig:\thefignum}
+    \end{figure}
+}
+
+%*******************
+% Tables
+\newcommand{\tableheader}{No. & Sator Arepo & Tenet Opera & Rotas\\}
+\newcommand{\tablerow}[1]{#1 & \sator &  \sator & \sator\\}
+
+\newcommand{\satortab}{%
+    \stepcounter{tabnum}%
+    See table~\ref{table:\thetabnum}.\par
+    \begin{table}
+        \caption{\sator}
+        \label{table:\thetabnum}
+
+        \begin{tabulary}{\linewidth}{rLLL}
+            \toprule
+            \tableheader\midrule
+            \tablerow{1}
+            \tablerow{2}
+            \tablerow{3}
+            \tablerow{4}
+            \bottomrule
+        \end{tabulary}
+    \end{table}%
+}
+
+\endinput

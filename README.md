@@ -26,6 +26,12 @@ COMPATIBILITY: pdflatex; bibtex; makeindex (for indexing and nomenclature with n
 thesis.tex is the mainfile. Other included files (in folders: chapters, frontmatter, endmatter,commands) have a header: %!TEX root=../thesis.tex .
 
 Most of the required .sty files are in styles folder. Add them to your local latex installation folder (if you don't know how, google it!). 
+**********EXAMPLE: Miktex on Windows.**********
+1. Navigate to Miktex-install-folder/tex/latex/ and create a new folder (say "iiserb") for the .sty files
+2. Copy all .sty files to Miktex-install-folder/tex/latex/iiserb/
+3. Open Miktex Console as admin. Go to Tasks > Refresh filename database.
+Done!
+***********************************************
 
 Bibliography style file hunsrt.bst is also in the styles folder.
 

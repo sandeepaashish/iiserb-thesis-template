@@ -5,13 +5,13 @@
 %     date            = "16 January 2020",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, IISERB thesis format",
-%     supported       = "Send email to sandeepaashish@hotmail.com",
+%     supported       = "Send email to sandeepaashish@gmail.com",
 %     docstring       = "Class for IISERB PhD thesis (Physics and Mathematics)."
 % --------------------------------------------------------------------
 % Credit to Arghya Chattopadhyay for the hard work of putting together the format. This organizes different styles/formats into a class file.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{IISERB}[2020/01/16 v1.0 IISERB Class]
+\ProvidesClass{IISERB}[2014/03/25 v2.0 IISERB Class]
 \LoadClass[12pt, a4paper]{book}
 
 %========FORMAT======================================
@@ -148,3 +148,24 @@
 
 %=========================================================================
 
+
+
+%===========================Dedication Page===============================
+
+\newenvironment{dedication}
+	{
+		 \vspace*{\stretch{1}}	%the dedication quote should at 1/3rd height of the page
+	 \begin{quotation}
+		\begin{center}
+			\begin{em}
+	}
+    {
+		\par
+		\end{em}
+		\end{center}
+		\end{quotation}
+		\vspace{\stretch{3}}
+	}
+
+
+%=========================================================================

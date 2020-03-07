@@ -1,17 +1,17 @@
 % -------------------------------------------------------------------
 %  @LaTeX-class-file{
 %     filename        = "IISERB.cls",
-%     version         = "1.0",
-%     date            = "16 January 2020",
+%     version         = "2.0",
+%     date            = "25 March 2020",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, IISERB thesis format",
-%     supported       = "Send email to sandeepaashish@gmail.com",
+%     supported       = "Send email to sandeepaashish@hotmail.com",
 %     docstring       = "Class for IISERB PhD thesis (Physics and Mathematics)."
 % --------------------------------------------------------------------
 % Credit to Arghya Chattopadhyay for the hard work of putting together the format. This organizes different styles/formats into a class file.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{IISERB}[2014/03/25 v2.0 IISERB Class]
+\ProvidesClass{IISERB}[2020/03/25 v2.0 IISERB Class]
 \LoadClass[12pt, a4paper]{book}
 
 %========FORMAT======================================

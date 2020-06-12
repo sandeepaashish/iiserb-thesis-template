@@ -11,13 +11,15 @@ Be prepared to modify a bit the IISERB class file to conform with whoever inchar
 The formatting related contents (packages, custom layout, fonts, etc.) are now part of the IISERB.cls class file, which also contains the title page layout. 
 All you have to do is enter your details in the individual details section in thesis.tex and edit included files. 
 
-This version: 1.0.1 
+This version: 2.1
 
 Created by: Sandeep Aashish 
 
 contact: sandeepaashish@hotmail.com
 
-Date created: January 23, 2020
+Date created: June 12, 2020
+
+Remarks: Final version, conforms to academic office requirements.
 
 --------------------COMPILING INSTRUCTIONS---------------------------------
 

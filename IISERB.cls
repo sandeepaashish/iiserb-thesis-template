@@ -1,17 +1,17 @@
 % -------------------------------------------------------------------
 %  @LaTeX-class-file{
 %     filename        = "IISERB.cls",
-%     version         = "2.0",
-%     date            = "25 March 2020",
+%     version         = "2.1",
+%     date            = "12 June 2020",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, IISERB thesis format",
 %     supported       = "Send email to sandeepaashish@hotmail.com",
-%     docstring       = "Class for IISERB PhD thesis (Physics and Mathematics)."
+%     docstring       = "Class for IISERB PhD thesis (Physics)."
 % --------------------------------------------------------------------
 % Credit to Arghya Chattopadhyay for the hard work of putting together the format. This organizes different styles/formats into a class file.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{IISERB}[2020/03/25 v2.0 IISERB Class]
+\ProvidesClass{IISERB}[2020/06/12 v2.1 IISERB Class]
 \LoadClass[12pt, a4paper]{book}
 
 %========FORMAT======================================
@@ -120,26 +120,26 @@
 		\begin{center}
 		%	\begin{doublespace}
 				%	\doublespacing
-				\textbf{{\LARGE{\thesistitle}}} \\
+				\textbf{{\Large{\thesistitle}}} \\
 				\ \\
 				\ \\
 			\large{A thesis submitted in partial fulfilment of the requirements \\
 				for the award of the degree of} \\ \vspace{0.6cm}
-				\large{\textbf{DOCTOR OF PHILOSOPHY}} \\
-			\vspace{1cm}
-				\large{{by}} \\
+				\normalsize{\textbf{DOCTOR OF PHILOSOPHY}} \\
+			\vspace{2.5cm}
+				\normalsize{{by}} \\
 				\large{\textbf{\MakeUppercase{ \studentname}}} \\
 				\normalsize{\textbf{\studentrollno}} \\
 				%\normalsize{\textit{Under the guidance of}} \\
 				%\large{\textbf{\MakeUppercase{\advisorname}}}
 		%	\end{doublespace}
 			\vfill
-			\centerline{\includegraphics[width=6cm]{iiserb_logo.png}}
+			\centerline{\includegraphics[width=4.6cm]{iiserb_logo.png}}
 			
-			\large{to the}\\ \vspace{0.3cm}
-			\textbf{\large{DEPARTMENT OF \MakeUppercase{\subject} \\ 
-				\large{{\mbox{INDIAN INSTITUTE OF SCIENCE EDUCATION AND} RESEARCH BHOPAL}}}\\ %Flows onto two lines
-				\normalsize{BHOPAL - 462066}} \\ 
+			\vspace{0.9cm} {to the}\\ \vspace{0.3cm}
+			\textbf{\normalsize{DEPARTMENT OF \MakeUppercase{\subject} \\ 
+				{{\mbox{INDIAN INSTITUTE OF SCIENCE EDUCATION AND} RESEARCH BHOPAL}}}\\ %Flows onto two lines
+				\normalsize{Bhopal - 462 066}} \\ 
 			\ \\
 			{\thesisdate}
 		\end{center}

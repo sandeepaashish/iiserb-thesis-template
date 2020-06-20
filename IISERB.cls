@@ -26,11 +26,13 @@
 \RequirePackage{glossaries}
 \renewcommand{\nomname}{List of Symbols \& Abbreviations}
 
-%====================Index Generation=============================
-%Not required for IISERB format. 
-
-%\usepackage{makeidx}
-
+%====================Blank Page=============================
+\def\blankpage{
+      \clearpage
+      \thispagestyle{empty}
+      \addtocounter{page}{-1}
+      \null
+      \clearpage}
 
 
 
